@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chat bot example</title>
+	<style type="text/css">
+		header{
+			background: #0b7dda;
+			padding: 20px 20px 20px 20px;
+			width:300px;
+		    display: block;
+		    margin:0 auto;
+		    color:#fff;
+		    font-size: 25px;
+		    font-family: Arial, sans-serif;
+		    border-radius: 15px 15px 0 0 ;
+		}
+
+		.chat-box {
+		  background-color: #f2f2f2;
+		  padding: 10px;
+		  border-radius: 5px;
+		  font-family: Arial, sans-serif;
+		  width:320px;
+		  display: block;
+		  margin:0 auto;
+		}
+
+
+		.chat-message {
+		  padding: 10px;
+		  margin-bottom: 10px;
+		  border-radius: 5px;
+		  max-width: 70%;
+		  display: block;
+		  clear:both;
+		}
+
+		.receiver {
+		  background-color: #2196F3;
+		  color: #fff;
+		  float: left;
+		}
+
+		.sender {
+		  background-color: #e0e0e0;
+		  float: right;
+		}
+
+		.message-input {
+		  margin-top: 10px;
+		}
+
+		.message-input input[type="text"] {
+		  width: 70%;
+		  padding: 10px;
+		  border: none;
+		  border-radius: 5px;
+		  font-size: 16px;
+		  margin-right: 10px;
+		}
+
+		.message-input button {
+		  background-color: #2196F3;
+		  color: #fff;
+		  border: none;
+		  border-radius: 5px;
+		  padding: 10px;
+		  font-size: 16px;
+		  cursor: pointer;
+		}
+
+		.message-input button:hover {
+		  background-color: #0b7dda;
+		}
+
+	</style>
+</head>
+<body>
+<header> Chat bot</header>
+	<div class="chat-box">
+		
+	  <div class="chat-message receiver">
+	    <p>Hey, how's it going?</p>
+	  </div><br/>
+	  <div class="chat-message receiver">
+	    <p>Any issue mate?</p>
+	  </div>
+	  <div class="chat-message sender">
+	    <p>Not bad, thanks. How about you?</p>
+	  </div>
+	  <div class="chat-message sender">
+	    <p>Just trying to wrap the work for today.</p>
+	  </div>
+	  <div class="message-input">
+	    <input type="text" placeholder="Type your message here...">
+	    <button>Send</button>
+	  </div>
+	</div>
+
+</body>
+</html>
